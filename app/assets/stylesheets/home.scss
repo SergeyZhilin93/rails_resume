@@ -84,3 +84,27 @@ body {
 	width: 100%;
 	margin-left: 2rem;
 }
+.skills {
+	display: flex;
+	justify-content: center;
+}
+.skills-block-image-container {
+	width: 22.5rem;
+	height: 22.5rem;
+	&__image {
+		width: 100%;
+		height: 100%;
+	}
+}
+.skills-block {
+	display: flex;
+	&--reversed {
+		display: flex;
+		flex-direction: row-reverse;
+	}
+	
+}
+.skills-block-text-container {
+	width: 50%;
+	margin-left: 2rem;
+}
